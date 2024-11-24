@@ -4,6 +4,9 @@ a = int(input())
 b = int(input())
 
 if a >= b:
-    print(a + b)
+    print(a)
 else:
-    print(a - b)
+    print(b)
+
+print("вывожим сумму квадратов:")
+print(a * a + b * b)
