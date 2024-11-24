@@ -4,9 +4,9 @@ a = int(input())
 b = int(input())
 
 if a >= b:
-    print(a)
-else:
     print(b)
+else:
+    print(a)
 
 print("выводим разность квадратов:")
 print((a - b)*(a + b))
